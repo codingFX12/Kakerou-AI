@@ -13,7 +13,7 @@ const Navbar = () => {
     <section className="px-8 sm:px-16 py-8 z-10 w-full absolute bg-black text-white">
       <nav className='flex justify-between max-w-[1440px] items-center gap-12'>
         <h1 className='font-[arial] font-bold text-5xl'>
-          <a href="#">KaKerou</a>
+          <a href="#">KaKerou<span className='text-[0.5rem] border-2 border-white p-1 rounded-full'>AI</span></a>
         </h1>
         
         <ul className="flex max-lg:hidden justify-center items-center text-lg gap-24 font-[arial]">
@@ -28,7 +28,7 @@ const Navbar = () => {
 
         {/* hamburger */}
         <button className="bg-white lg:hidden text-black text-xl p-4 rounded-2xl hover:bg-gray-200 shadow-xl z-20" onClick={Toggle}>
-          <div className='absolute top-7 right-16 bg-black p-2 z-10'></div>
+          <div className='absolute top-7 right-16 bg-black p-2 z-10 rounded-md'></div>
           <img src={hamburger} alt="hamburger" width={15} height={15}/>
         </button>
       </nav>
