@@ -5,7 +5,7 @@ const App = () => {
   return (
     <main className='relative bg-black'>
       <Navbar />
-      <section>
+      <section className='px-12 py-24'>
         <Hero />
       </section>
     </main>
