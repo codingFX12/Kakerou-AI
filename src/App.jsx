@@ -3,9 +3,9 @@ import Hero from './Sections/Hero';
 
 const App = () => {
   return (
-    <main className='relative bg-black'>
+    <main className='relative bg-gradient-to-br from-black via-black to-indigo-950'>
       <Navbar />
-      <section className='px-12 py-24'>
+      <section className='px-20 py-24'>
         <Hero />
       </section>
     </main>
