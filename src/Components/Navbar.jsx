@@ -18,8 +18,8 @@ const Navbar = () => {
         
         <ul className="flex max-lg:hidden justify-center items-center text-lg gap-24 font-[arial]">
           <li><a href="#" className='hover:border-b-2 py-3 hover:duration-100'>About Us</a></li>
+          <li><a href="#" className='hover:border-b-2 py-3 hover:duration-100'>Features</a></li>
           <li><a href="#" className='hover:border-b-2 py-3 hover:duration-100'>Reviews</a></li>
-          <li><a href="#" className='hover:border-b-2 py-3 hover:duration-100'>Contacts</a></li>
         </ul>
         <div className="flex max-lg:hidden gap-6 items-center justify-center text-lg font-[arial]">
           <Button label={'Login'}/>
@@ -41,7 +41,6 @@ const Navbar = () => {
           <li className='border-b-2 py-3 hover:opacity-60'><a href="#">Contacts</a></li>
           <li className='border-b-2 py-3 hover:opacity-60'><a href="#">Sign Up</a></li>
           <li className='border-b-2 py-3 hover:opacity-60'><a href="#">Login</a></li>
-          <li className='border-b-2 py-3 hover:opacity-60'><a href="#">Our Team</a></li>
         </ul>
         <div className='top-48 left-16 absolute p-2 bg-gradient-to-r from-green-500 to-indigo-500 rounded-full'></div>
         <div className='top-96 left-36 absolute p-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full'></div>
