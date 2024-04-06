@@ -2,7 +2,7 @@ import Button from "../Components/Button"
 
 const Hero = () => {
   return (
-    <div className="h-[100vh] max-lg:h-[120vh] max-w-[1440px] w-full text-white mt-6 max-sm:mt-3">
+    <div className="max-w-[1440px] w-full text-white mt-6 max-sm:mt-3">
       <div className="flex max-lg:flex-col items-start max-lg:items-center justify-between gap-12">
         <div className="flex flex-col items-start max-lg:items-center mt-8">
           <p className="text-sm bg-gray-800 py-2 px-5 rounded-md text-gray-400"> <span className="pr-1 text-indigo-400">X </span> <span className="text-white">30% </span> Discount For <span className="text-white">First time</span> Purchase</p>

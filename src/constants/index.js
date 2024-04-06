@@ -5,7 +5,8 @@ import {
     benefitImage2,
 } from "../assets/Images";
 
-export const benefits = [
+export const 
+benefits = [
     {
       id: "0",
       title: "Ask anything",
